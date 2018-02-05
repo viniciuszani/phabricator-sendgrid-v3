@@ -4,12 +4,12 @@ This module provides Outbound Mail integration using SendGrid's RESTful API, v3.
 
 # Requirements
 
-- An [[https://sendgrid.com/ | account at SendGrid]]; and
+- An account at SendGrid (https://sendgrid.com/); and
 - cURL library for PHP (check using `php -i|grep curl`).
 
 # Installation
 
-Before you start, create your SendGrid API key [[https://app.sendgrid.com/settings/api_keys | in their website]].
+Before you start, create your SendGrid API key: https://app.sendgrid.com/settings/api_keys.
 Then follow the simple steps below.
 
 - Place the entire directory (sendgrid3) somewhere you wish: `git clone https://github.com/viniciuszani/phabricator-sendgrid-v3.git`;
@@ -25,4 +25,4 @@ echo "Content!" | ./bin/mail send-test --to YOUR_PHABRICATOR_USERNAME --subject 
 
 # License
 
-[[https://opensource.org/licenses/MIT | The MIT License]]
+https://opensource.org/licenses/MIT
